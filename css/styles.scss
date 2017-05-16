@@ -8,13 +8,13 @@ div {
     margin: 3em auto;
     margin-top: 3em;
     margin-right: auto;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
     margin-left: auto;
     text-align: center;
     width: 50%;
 }
 body {
-    background: yelllooow;
+    background: white;
     font-size: 5em;
 }
 img {
@@ -26,12 +26,14 @@ img {
 #stage {
     position: relative;
     overflow: hidden;
+    background: white;
 }
 //Child
 #stage svg {
     position: absolute;
     bottom: 0;
     right: 0;
+    background: white;
 }
 #stage h1 {
     position: absolute;
@@ -49,8 +51,7 @@ img {
 }
 //Last Frame
 #stage:hover h1,
-#stage:hover svg {
-    opacity: 1;
+
 }
 #layer1 {
     background: none;
