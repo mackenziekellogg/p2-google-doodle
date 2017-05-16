@@ -3,6 +3,16 @@
 @import "google-homepage";
 
 /* Styling */
+div {
+    display: block;
+    margin: 3em auto;
+    margin-top: 3em;
+    margin-right: auto;
+    margin-bottom: 3em;
+    margin-left: auto;
+    text-align: center;
+    width: 50%;
+}
 body {
     background: yelllooow;
     font-size: 5em;
